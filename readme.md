@@ -28,7 +28,7 @@ python plugin/RadarGaussianDet3D/ops/diff-gaussian-rasterization-bev/setup.py in
 Please use the file provided in `tools/create_data_for_RadarGaussianDet3D.py` to generate the corresponding data.
 
 ```
-python tools/create_data_vod.py --dataset vod --root-path ${YOUR_DATA_PATH}$
+python tools/create_data_for_RadarGaussianDet3D.py --dataset vod --root-path ${YOUR_DATA_PATH}$
 ```
 
 Please also make sure you edit the `data_root` in `plugin/RadarGaussianDet3D/configs/_base_/datasets/vod_radar.py` and 
