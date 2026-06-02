@@ -20,7 +20,9 @@ After setting up the environment, please move the files in this repo to your mmd
 
 After that, run the following command to build the CUDA extensions for Gaussian Splatting:
 ```
-python plugin/RadarGaussianDet3D/ops/diff-gaussian-rasterization-bev/setup.py install
+cd plugin/RadarGaussianDet3D/ops/diff-gaussian-rasterization-bev
+python setup.py install
+cd ../../../..
 ```
 
 ### Data Preparation
